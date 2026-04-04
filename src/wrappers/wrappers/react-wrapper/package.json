@@ -2,7 +2,9 @@
   "name": "@elsa-workflows/elsa-studio-wasm-react",
   "version": "0.0.0",
   "type": "module",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "main": "./dist/elsa-studio-wasm-react.umd.cjs",
   "module": "./dist/elsa-studio-wasm-react.js",
   "exports": {
@@ -45,7 +47,7 @@
     "eslint-plugin-react-refresh": "^0.4.5",
     "eslint-plugin-storybook": "^0.6.15",
     "prop-types": "^15.8.1",
-    "storybook": "^7.6.6",
-    "vite": "^5.0.10"
+    "storybook": "^7.6.21",
+    "vite": "^5.4.21"
   }
 }
